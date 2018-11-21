@@ -19,8 +19,8 @@ from mpl_finance import candlestick_ohlc
 start=datetime.datetime(2018,1,1)
 end=datetime.datetime.now()
 
-#pull data from yahoo_finance; 'data' is dict format, key would be symbles
-data={symble: web.get_data_yahoo(symble, start, end)
+#pull data from yahoo_finance; 'data' is dict format, key would be symbols
+data={symbol: web.get_data_yahoo(symbol, start, end)
     for symble in ['TSLA','AAPL']}
 
 #set symble with associated data: OHLC
