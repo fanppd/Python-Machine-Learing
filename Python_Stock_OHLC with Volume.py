@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import datetime
-from mpl_finance import candlestick_ohlc
-import matplotlib.dates as mdates
 import pandas_datareader.data as web
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from mpl_finance import candlestick_ohlc
 from matplotlib import style
 
 ##pd.set_option('display.max_rows',20)
