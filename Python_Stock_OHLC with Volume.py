@@ -17,11 +17,11 @@ style.use('ggplot')
 start=datetime.datetime(2017,1,1)
 end=datetime.datetime.now()
 
-#set symble
-symble='AMZN'
+#set symbol
+symbol='AMZN'
 
 #pull data from yahoo
-df=web.get_data_yahoo(symble,start,end)
+df=web.get_data_yahoo(symbol,start,end)
 
 #check columns
 print(df.columns)
