@@ -56,7 +56,7 @@ def calculate_plot():
     ax.set_ylabel('Date (Year End)')
 
     #set xaxis as percentage format
-    ax.xaxis.set_major_formatter(ticker.PercentFormatter(xmax=5))
+    ax.xaxis.set_major_formatter(ticker.PercentFormatter(xmax=1))
 
     plt.show()
 
