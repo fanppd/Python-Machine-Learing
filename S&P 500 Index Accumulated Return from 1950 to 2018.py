@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime
-from mpl_finance import candlestick_ohlc
-import matplotlib.dates as mdates
 import pandas_datareader.data as web
 from matplotlib import style
 import pickle
@@ -13,7 +11,7 @@ import matplotlib.ticker as ticker
 ##pd.set_option('display.max_rows',20)
 ##pd.set_option('display.max_columns',100)
 ##pd.set_option('display.width',100)
-##style.use('ggplot')
+style.use('ggplot')
 
 
 def get_data():
