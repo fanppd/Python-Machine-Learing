@@ -76,22 +76,3 @@ plt.subplots_adjust(left=0.08,right=0.98,wspace=0.05,hspace=0.05)
 plt.show()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
