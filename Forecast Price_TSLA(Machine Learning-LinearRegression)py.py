@@ -53,8 +53,11 @@ one_day=86400
 next_unix=last_unix+one_day
 for i in forecast:
     next_date=datetime.datetime.fromtimestamp(next_unix)
-    next_unix+=one_day
     forecast_test.loc[next_date]=[np.nan for _ in range(len(forecast_test.columns)-1)]+[i]
+    if next_date.weekday()==4:
+        next_unix+=one_day*3
+    else:
+        next_unix+=one_day
 
 #plot charts
 fig=plt.figure()
