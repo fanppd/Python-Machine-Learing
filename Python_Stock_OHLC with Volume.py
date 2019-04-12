@@ -71,3 +71,4 @@ print(data.head())
 
 #run
 plt.show()
+
